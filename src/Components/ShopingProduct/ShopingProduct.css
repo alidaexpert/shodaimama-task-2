@@ -1,0 +1,125 @@
+.product-card-section{
+    box-shadow: var(--box-shadow);
+    border-radius: 3px;
+
+}
+.card-padding{
+    padding: 10px;
+   position: relative;
+}
+/* fresh product  */
+.card-headline-fresh{
+position: absolute;
+top: 10px;
+left: 180px;
+background-color: var(--light-green-color);
+color: white;
+font-size: 13px;
+font-weight: 300;
+padding: 1px 5px;
+border-radius: 3px;
+}
+/* regular product  */
+.card-headline-regular{
+position: absolute;
+top: 10px;
+right: 10px;
+background-color: var(--sky-color);
+color: white;
+font-size: 13px;
+font-weight: 300;
+padding: 1px 5px;
+border-radius: 3px;
+}
+.product-img-section{
+    height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.product-img{
+    width: 120px;
+    height: 120px;
+    transition: .5s;
+}
+.product-img:hover{
+    transform: scale(130%);
+}
+.card-container{
+    height: 270px
+}
+.card-text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+.card-text p{
+    text-align: center;
+font-weight: 500;
+}
+.card-text small{
+    font-size: 12px;
+    color: var(--orange-color);
+    font-weight: 500;
+}
+.card-text-price{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(97, 96, 96);
+}
+.card-text-price span{
+font-size: 13px;
+font-weight: 400;
+}
+.card-bottom-detail-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-bottom-detail-btn button{
+    border: 1px solid var(--deep-green-color);
+font-size: 11px;
+font-weight: 600;
+padding: 0 10px;
+color: var(--deep-green-color);
+background-color: white;
+}
+.card-text-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+.card-bottom-left-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-bottom-left-icon span{
+font-size: 11px;
+font-weight: 500;
+color: grey
+}
+.card-bottom-right-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card-bottom-add-btn{
+    cursor: pointer;
+    width: 100%;
+    background-color: var(--deep-green-color);
+    color: white;
+    padding: 10px 0;
+    border: 0;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* for mobile responsive */
+

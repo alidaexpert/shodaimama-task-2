@@ -1,0 +1,6 @@
+/* for mobile responsive */
+@media screen and (max-width:768px) {
+    .slider img{
+width: 100% ;
+height: 180px !important;    }
+}

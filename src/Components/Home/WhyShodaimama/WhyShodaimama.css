@@ -1,0 +1,41 @@
+/* about section  */
+.why-shodaimama-margin{
+    margin: 40px 0;
+}
+.whyshodaimama-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 15px 15px;
+    border-radius: 3px;
+    box-shadow: var(--box-shadow);
+}
+.whyshodaimama-card img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.whyshodaimama-text{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.whyshodaimama-text h5{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+.whyshodaimama-text p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(109, 109, 109);
+}
+.about-grid-template{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    grid-gap: 15px;
+}

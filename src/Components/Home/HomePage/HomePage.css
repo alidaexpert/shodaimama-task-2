@@ -1,0 +1,20 @@
+.main-container{
+    color: var(--font-color);
+}
+.top-padding{
+    padding: 32px;
+}
+/* right sidebar  */
+.right-sidebar{
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    }
+
+
+    /* for moile responsivve  */
+    @media screen and (max-width:768px) {
+        .right-sidebar{
+            width: 100%;
+            margin: 0;
+        }
+    }

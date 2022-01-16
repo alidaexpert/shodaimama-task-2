@@ -1,0 +1,146 @@
+
+/* footer section  */
+.footer{
+    background-color: #F6F6F6;
+}
+.footer-section{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(219px,1fr));
+grid-gap:30px;
+justify-content: center;
+width: 100%;
+background-color: #F6F6F6;
+padding: 20px;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo-card{
+padding: 20px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.footer-logo-card button{
+    position: relative;
+border: 0;
+background-color: #006a4eca;
+padding: 6px 20px;
+border-radius: 3px;
+overflow: hidden;
+}
+.footer-button.animation {
+    -webkit-animation:button-animation 5s ease-in-out infinite;
+    animation: button-animation 5s ease-in-out infinite;
+    top: 0px;
+}
+.footer-button {
+    height: 36px;
+    width: 200px;
+    background-color: #006a4e2f;
+    position: absolute;
+    top: 0;
+}
+.footer-logo-card button a{
+    color: white;
+ font-size: 16px;
+ font-weight: 600;
+}
+.footer-logo-card em{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+.footer-icon li a{
+    color:var(--deep-green-color);
+    font-size: 18px;
+}
+.footer-links{
+    padding: 20px 0px;
+display: flex;
+gap: 20px;
+flex-direction: column;
+}
+.footer-link-list{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+.footer-link-list li a{
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+}
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+.footer-contact li{
+    display: flex;
+    gap: 10px;
+}
+.footer-contact li i{
+    font-size: 18px;
+    color: var(--deep-green-color);
+}
+.footer-contact li span{
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+
+}
+.footer-contact-btn{
+    background-color: #F6F6F6;
+border: 1px solid rgb(192, 191, 191);
+padding: 5px 15px;
+margin-top: 5px;
+font-size: 14px;
+color: rgb(105, 105, 105);
+}
+/* patment info  */
+.payment-info{
+    padding:0 20px;
+    background-color: #F6F6F6;
+}
+.payment-info img{
+    border-top: 1px solid rgb(212, 212, 212);
+    padding-top: 20px;
+}
+
+/* footer anchor animation  */
+@keyframes button-animation{
+    0% {
+        left: -100%;
+        box-shadow: 0 0 0 rgb(145 183 250 / 0%);
+    }
+    
+    5% {
+        left: -100%;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+    25% {
+        box-shadow: -20px 0 15px -10px rgb(145 183 250 / 40%);
+    }
+    50% {
+        left: 100%;
+        box-shadow: 0 0 0 rgb(145 183 250 / 0%);
+    }
+    55% {
+        left: 100%;
+        -webkit-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+    }
+    75% {
+        box-shadow: 20px 0 15px -10px rgb(145 183 250 / 40%);
+    }
+    100% {
+        left: -100%;
+        box-shadow: 0 0 0 rgb(145 183 250 / 0%);
+    }
+}

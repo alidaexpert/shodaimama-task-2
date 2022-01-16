@@ -1,0 +1,93 @@
+/* right side navbar  */
+
+.right-navbar ul{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    background-color: white;
+    z-index: 999;
+    position: fixed;
+    width: calc(100% - 17rem);
+    margin-top: -55.5px;
+    }
+    .right-navbar ul li{
+        padding: 15px 30px;
+        border-right: 1px solid rgb(195, 195, 195);
+    }
+    .right-navbar ul li:last-child{
+        border: 0;
+    }
+    .right-navbar ul li a{
+        color: var(--font-color);
+        font-weight: 600;
+        transition: 1s;
+        display: block;
+    }
+    .right-navbar ul li:hover a{
+    transform:translateX(4%);
+    }
+.home-menu-mobile{
+    display: none;
+}
+    /* for mobile responsive  */
+    @media screen and (max-width:768px) {
+        .right-navbar ul{
+            display: grid;
+            grid-template-columns: 60px repeat(3,1fr);
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            left: 0;
+bottom: -.5%;
+        }
+        .home-menu-mobile{
+            display: block;
+            background-color:var(--deep-green-color);
+            overflow: hidden;
+            padding: 0 !important;
+            align-items: center;
+            justify-content: center;
+        }
+        .home-menu-mobile a img{
+            width: 50px;padding: 8px;
+            height: 100% !important;
+        }
+        .right-navbar ul li{
+            padding: 15px 25px;
+            border-right: 1px solid rgb(195, 195, 195);
+        }
+        .mobile-nav-1{
+            order: 2;
+            background-color: #44bd32;
+
+        }
+        .mobile-nav-2{
+            order: 1;
+            background-color: #0097e6;
+
+        }
+        .mobile-nav-3{
+            order: 3;
+            background-color: #8c7ae6;
+
+        }
+        .mobile-nav-1 a{
+            color: white !important;
+text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+        }
+        .mobile-nav-2 a{
+            color: white !important;
+text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+        }
+        .mobile-nav-3 a{
+            color: white !important;
+text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+        }
+    }

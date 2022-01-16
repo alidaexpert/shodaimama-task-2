@@ -1,0 +1,51 @@
+[
+    {
+        "categoryImg":"/icons/sidebar/hygiene.3e40b6db.png",
+        "categoryName":"Hygiene"
+    },
+    {
+        "categoryImg":"/images/category/smcat_1624898877195_13897913_pzqI9rNe_SASSMIS.png",
+        "categoryName":"Breakfast & Snacks"
+    },
+    {
+        "categoryImg":"/images/category/smcat_1624899365843_78289539_xABdWVP9_SASSMIS.png",
+        "categoryName":"Cooking"
+    },
+    {
+        "categoryImg":"/images/category/meat&fish.png",
+        "categoryName":"Meat & Fish"
+    },
+    {
+        "categoryImg":"/images/category/fruits&egetables.png",
+        "categoryName":"Fruits & Vegetables"
+    },
+    {
+        "categoryImg":"/images/category/diary.png",
+        "categoryName":"Dairy"
+    },
+    {
+        "categoryImg":"/images/category/frozen&canned.png",
+        "categoryName":"Frozen & Canned"
+    },
+    {
+        "categoryImg":"/images/category/evarage.png",
+        "categoryName":"Beverages"
+    },
+    {
+        "categoryImg":"/images/category/kidscare.png",
+        "categoryName":"Kids care"
+    },
+    {
+        "categoryImg":"/images/category/personalcare.png",
+        "categoryName":"Personal Care"
+    },
+    {
+        "categoryImg":"/images/category/homekitchen.png",
+        "categoryName":"Home & Kitchen"
+    },
+    {
+        "categoryImg":"/images/category/stationary.png",
+        "categoryName":"Stationary"
+    }
+
+]

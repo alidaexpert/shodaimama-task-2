@@ -1,0 +1,21 @@
+/*  regular product  */
+.product-grid-template{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    grid-gap: 29px;
+}
+
+
+.product-show-more{
+    display: flex;
+    justify-content: end;
+    padding: 20px 0;
+}
+.product-show-more button{
+    background-color: white;
+    color: rgb(155, 155, 155);
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+    padding: 5px 15px;
+box-shadow: var(--box-shadow);}

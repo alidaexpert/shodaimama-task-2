@@ -1,0 +1,78 @@
+/* <!-- preorder products --> */
+.preorder-section{
+    margin: 25px 0;
+}
+.product-headline{
+    background-color: rgba(128, 128, 128, 0.09);
+    padding: 15px 30px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.product-headline h2{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.product-headline p{
+    font-size: 18px;
+}
+.border-line{
+    position: absolute;
+    left: 0;
+    top: 15%;
+    height: 70%;
+    width: 10px;
+    border-radius: 5px;
+    background-color: var(--light-green-color);
+}
+.preorder-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    grid-gap: 29px;
+
+}
+.preorder-each-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    min-height: 223px;
+    background: #fff;
+    border-radius: 3px;
+    position: relative;
+}
+.preorder-card-img{
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+}
+.preorder-card-img img{
+    height: 164px;
+    object-fit: cover;
+    transition: .5s;
+}
+.preorder-card-img img:hover{
+    transform: scale(130%);
+}
+.preorder-card-text{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 0 10px;
+position: absolute;
+bottom: 0;
+left: 0;
+background-color: white;
+}
+.preorder-card-text p{
+    font-weight: 500;
+    padding: 3px 10px;
+    color: rgb(95, 95, 95);
+}
+.fa-chevron-right{
+    font-size: 13px;
+    color: var(--sky-color);
+}
